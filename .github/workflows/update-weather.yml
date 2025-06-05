@@ -36,4 +36,4 @@ jobs:
         git config user.email "github-actions@github.com"
         git add weather_forecast.html
         git commit -m "Update weather forecast [auto]" || echo "No changes to commit"
-        git push https://x-access-token:${GH_PAT}@github.com/${{ github.repository }}.git HEAD:main
+        git push https://x-access-token:${GH_PAT}@github.com/${{ github.repository }}.git HEAD:${{ github.ref_name }}
