@@ -42,7 +42,7 @@ def save_html(content, filename):
         file.write(content)
 
 def update_weather_forecast():
-    api_key = '80066c3f9fc1cc035a019af7c86a0e56'  # Replace with your OpenWeatherMap API key
+    api_key = 'YOUR_API_KEY'  # Replace with your OpenWeatherMap API key
     city = 'Albacete,ES'
     weather_data = fetch_weather(api_key, city)
     html_content = generate_html(weather_data)
