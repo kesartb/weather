@@ -30,7 +30,3 @@ Este repositorio contiene un script que actualiza un archivo HTML con la previsi
 1. Abre el navegador experimental del Kindle.
 2. Accede a la URL donde esté alojado el archivo `weather_forecast.html` (por ejemplo, usando GitHub Pages o un servidor propio).
 3. La página se recargará automáticamente cada 30 minutos con la información más reciente.
-
----
-
-¿Te gustaría que también te prepare un ejemplo de cómo activar GitHub Pages para mostrar el HTML directamente desde el repositorio?
