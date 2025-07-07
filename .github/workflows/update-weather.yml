@@ -1,8 +1,8 @@
 name: Update Weather Forecast
 
 on:
-  schedule:
-    - cron: "*/30 * * * *"  # Cada 30 minutos
+  #schedule:
+  #  - cron: "*/30 * * * *"  # Cada 30 minutos
   workflow_dispatch:        # Permite ejecución manual
 
 jobs:
